@@ -1,7 +1,7 @@
 This is an extension of PHPExcel that will allow you to do a lookup of 
-values in your Excel file and return results based on those values.  Once
-search completes, a new Excel file is downloaded onto the client's computer
-with the added info.
+values in your Excel file against a database and return results based on 
+those values.  Once search completes, a new Excel file is downloaded onto 
+the client's computer with the added info.
 
 Directions:
 1. Upload the classes.php and search.php files into your PHPExcel root directory
