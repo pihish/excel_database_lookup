@@ -1,0 +1,13 @@
+This is an extension of PHPExcel that will allow you to do a lookup of 
+values in your Excel file and return results based on those values.  Once
+search completes, a new Excel file is downloaded onto the client's computer
+with the added info.
+
+Directions:
+1. Upload the classes.php and search.php files into your PHPExcel root directory
+2. Edit the search.php to fit customize it for the Excel file that you will be
+working with.  The default configuration is designed to work with the 
+'excelexample.xlsx' file found on the GitHub project
+3. Make sure the 'upload_max_filesize' parameter in the 'php.ini' file is set 
+to a size large enough to handle your Excel workbook
+4. Run the script!
